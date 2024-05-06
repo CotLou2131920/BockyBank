@@ -23,14 +23,14 @@ body {
 }
 
 header {
-  background-color: #222831;
+  background-color: #000000;
   color: #fff;
   padding: 1em;
-  text-align: center;
+
 }
 
 .menu {
-  background-color: #00ADB5;
+  background-color: #c71010;
   color: #fff;
   padding: 0.5em;
   text-align: center;
@@ -50,11 +50,13 @@ header {
 
 nav a {
   width: auto;
-  color: #fff;
+  color: black;
+  font-weight: bold;
   text-decoration: none;
   padding: 0.5em;
   display: inline-block;
   margin: 0 0.5em;
+  
 }
 
 nav img {
@@ -77,6 +79,12 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-family: Open Sans;
+}
+
+footer {
+  background-color: #000000;
+  padding: 1em;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {

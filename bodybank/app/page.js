@@ -1,95 +1,17 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <div className="p-5">
+      <h1 className="">Bienvenue</h1>
+      <p className= "p-4" >Bienvenue à bord du "BodyBank", votre destination en ligne pour tous vos besoins en matière d'organes. Que vous soyez un professionnel de la santé à la recherche de pièces de rechange vitales ou un individu cherchant à améliorer votre qualité de vie, notre site est votre guichet unique pour des solutions de transplantation sûres et efficaces.
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+      À bord de notre bus virtuel, vous découvrirez un vaste catalogue d'organes de haute qualité, soigneusement sélectionnés et vérifiés pour leur compatibilité et leur intégrité. Des reins aux poumons, en passant par le cœur et le foie, nous avons ce qu'il vous faut pour répondre à vos besoins médicaux spécifiques.
+      </p>
+      <h1>Notre mission</h1>
+      <p className= "p-4">
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+      Notre équipe de professionnels médicaux et technologiques s'engage à vous offrir une expérience transparente et sécurisée. Grâce à des protocoles stricts de vérification et de confidentialité, vous pouvez avoir confiance en la qualité et l'origine éthique de chaque organe que vous achetez sur notre plateforme.
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+      Que vous soyez un chirurgien accompli ou un patient en attente d'une transplantation, "BodyBank" est là pour vous aider à franchir chaque étape du processus avec facilité et tranquillité d'esprit. Explorez notre site dès aujourd'hui et laissez-nous vous guider vers un avenir plus sain et plus prometteur.</p>
+    </div>
   );
 }
