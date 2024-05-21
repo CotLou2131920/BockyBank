@@ -46,6 +46,7 @@ header {
 
 .blog {
   width: 26%;
+  background-color: #393E46;
 }
 
 nav a {
@@ -93,6 +94,7 @@ footer {
   }
   .blog, .media {
     width: 100%;
+    flex-direction: column;
   }
   .logo {
     width: 60%;
@@ -110,6 +112,13 @@ footer {
     height: 10%;
     align-self: center;
   }
+  article {
+    width: 80%;
+    margin: 5% auto;
+  }
+  ul img {
+    max-width: 25%;
+  }
 }
 
-/*# sourceMappingURL=style.css.map */
+
