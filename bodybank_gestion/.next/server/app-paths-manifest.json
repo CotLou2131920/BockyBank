@@ -1,0 +1,7 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/GestionOrgannes/[id]/page": "app/GestionOrgannes/[id]/page.js",
+  "/GestionType/[id]/page": "app/GestionType/[id]/page.js",
+  "/GestionType/page": "app/GestionType/page.js",
+  "/GestionOrgannes/page": "app/GestionOrgannes/page.js"
+}
