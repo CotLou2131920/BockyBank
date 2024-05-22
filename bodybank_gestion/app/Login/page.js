@@ -60,7 +60,7 @@ export default function Home(){
                 </div>
             </div>
             <div className="p-3 mx-auto d-flex space-between">
-                <button type="submit"> Login </button>
+                <button type="submit" className="btn m-3" style={{backgroundColor: "#c71010"}} > Login </button>
             </div>
         </form> 
     )
