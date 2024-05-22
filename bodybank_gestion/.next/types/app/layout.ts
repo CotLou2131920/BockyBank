@@ -1,4 +1,4 @@
-// File: C:\Users\2131793\Documents\Code\Web3\ProjetFinaleDev\bodybank_dev\app\layout.js
+// File: C:\Users\2131793\Documents\Code\Web3\BockyBank\bodybank_gestion\app\layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

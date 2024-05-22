@@ -6,7 +6,7 @@ export default function Home(){
 
     function Redirect() {
       if(window !== undefined){
-        if(window.location.pathname != "/Login" && localStorage.getItem('token') === null &&windows !== undefined){
+        if(window.location.pathname != "/Login" && localStorage.getItem('token') === null &&window !== undefined){
           window.location.href = "/Login"
       }}
     }

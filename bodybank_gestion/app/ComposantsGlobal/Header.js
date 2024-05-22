@@ -15,10 +15,10 @@ export default function Header()
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <div className="col-12 ">
-                    <Link href="/" className="" style={css.nav}>Accueil</Link> 
-                    <Link href="/GestionType" className="" style={css.nav}>Types</Link> 
-                    <Link href="/GestionOrgannes" className="" style={css.nav}>Organnes</Link> 
-                    <img src="/Image/Profil.png" alt="" className="" style={css.nav}></img>
+                    <Link href="/" className="" >Accueil</Link> 
+                    <Link href="/GestionType" className="" >Types</Link> 
+                    <Link href="/GestionOrgannes" className="" >Organnes</Link> 
+                    <Link href="/Login"><img src="/Image/Profil.png" alt="" className=""></img></Link>
                 </div>
                 </div>
             </div>

@@ -1,7 +1,6 @@
 'use client'
 import OrganeCard from "./OrganeCard"
 import React from "react"
-import $ from 'jquery'
 
 
 

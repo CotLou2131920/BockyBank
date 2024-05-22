@@ -21,6 +21,8 @@ export default function Home(){
     }  
 
     async function Login(){
+        if(userName === '' || password === '') 
+            return alert("Veuillez remplir tous les champs")
         var response = await fetch("https://projet02-dicjprog4.cegepjonquiere.ca/api/Authentification/login", {
           method: 'POST', 
           headers: {

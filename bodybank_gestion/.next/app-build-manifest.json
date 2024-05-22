@@ -1,20 +1,16 @@
 {
   "pages": {
-    "/GestionOrgannes/[id]/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/GestionOrgannes/[id]/page.js"
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
-    ],
-    "/GestionType/[id]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/GestionType/[id]/page.js"
     ],
     "/GestionType/page": [
       "static/chunks/webpack.js",
@@ -26,16 +22,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/GestionOrgannes/page.js"
     ],
-    "/page": [
+    "/Login/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
-    ],
-    "/_not-found/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/Login/page.js"
     ]
   }
 }
